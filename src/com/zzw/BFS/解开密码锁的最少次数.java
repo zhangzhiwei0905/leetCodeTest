@@ -73,6 +73,7 @@ public class 解开密码锁的最少次数 {
                 /* 判断是否到达终点*/
                 if (deads.contains(cur))
                     continue;
+                // 若当前等于目标值，则返回step
                 if (cur.equals(target)) {
                     return step;
                 }
